@@ -8,6 +8,7 @@ import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
 
 function App() {
+
   return (
     <div>
       <Switch>
