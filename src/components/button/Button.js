@@ -8,7 +8,7 @@ function Button({ type = "button", disabled, clickHandler,  children }){
             onClick={clickHandler}
             className="button"
         >
-            {children.toUpperCase()}
+            {children}
         </button>
     )
 }
