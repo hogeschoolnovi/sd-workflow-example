@@ -3,7 +3,7 @@ import './App.css';
 import {Switch, Route} from "react-router-dom";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
-import Services from "./pages/services/Services";
+import Service from "./components/service/Service";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
 
@@ -19,7 +19,7 @@ function App() {
               <About/>
           </Route>
           <Route path="/services">
-              <Services/>
+              <Service/>
           </Route>
           <Route path="/team">
               <Team/>
