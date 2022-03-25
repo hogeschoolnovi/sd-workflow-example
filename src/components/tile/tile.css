@@ -1,0 +1,27 @@
+.tile-container{
+
+    display: flex;
+    padding: 8px;
+
+}
+
+.tile-container-reverse {
+    flex-direction: row-reverse;
+}
+
+.tile-image-container{
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+}
+
+.tile-text-container{
+    height: 500px;
+    width: 700px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

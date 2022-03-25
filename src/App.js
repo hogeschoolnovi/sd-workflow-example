@@ -6,11 +6,14 @@ import Home from "./pages/home/Home";
 import Service from "./components/service/Service";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
+import Tile from './components/tile/tile';
+import Nav from "./components/navigation/Nav";
 
 function App() {
 
   return (
     <div>
+        <Nav/>
       <Switch>
           <Route exact path='/'>
               <Home/>
