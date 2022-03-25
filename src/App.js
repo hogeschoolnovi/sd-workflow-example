@@ -6,11 +6,13 @@ import Home from "./pages/home/Home";
 import Services from "./pages/services/Services";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
+import Nav from "./components/navigation/Nav";
 
 function App() {
 
   return (
     <div>
+        <Nav/>
       <Switch>
           <Route exact path='/'>
               <Home/>
