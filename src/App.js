@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Button from "./components/button/Button";
 
 function App() {
   return (
     <div>
-      Hier gaan we onze fantastische app maken
+        <Button disabled={false}>Hallo</Button>
     </div>
   );
 }
