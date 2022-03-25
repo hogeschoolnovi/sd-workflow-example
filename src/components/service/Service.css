@@ -1,0 +1,12 @@
+.image-container{
+    width: 300px;
+
+}
+
+.div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px 100px 25px;
+}

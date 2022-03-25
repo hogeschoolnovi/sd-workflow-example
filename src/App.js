@@ -3,11 +3,10 @@ import './App.css';
 import {Switch, Route} from "react-router-dom";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
-import Services from "./pages/services/Services";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
-import Tile from './components/tile/tile';
 import Nav from "./components/navigation/Nav";
+import Services from "./pages/services/Services";
 
 function App() {
 
