@@ -10,6 +10,7 @@
 .left-container {
     display: inherit;
     flex-direction: inherit;
+    align-items: inherit;
     gap: 2em;
 }
 

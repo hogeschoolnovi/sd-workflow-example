@@ -1,9 +1,11 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, useHistory } from "react-router-dom";
 import '../../App.css';
 import './Nav.css';
+import Button from "../button/Button";
 
 function Nav() {
+    const history = useHistory();
     return (
         <nav className='nav-bar'>
             <div className='left-container'>
@@ -17,7 +19,7 @@ function Nav() {
                     <li><NavLink to='/contact'>Contact</NavLink></li>
                 </ul>
             </div>
-            {/*<Button/>*/ }
+            <Button children='Get Started' clickHandler={() => history.push('/contact')}/>
         </nav>
     );
 }
