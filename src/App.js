@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import Services from "./pages/services/Services";
 import Team from "./pages/team/Team";
 import Contact from "./pages/contact/Contact";
+import CTA from './components/CTA/CTA';
 
 function App() {
 
